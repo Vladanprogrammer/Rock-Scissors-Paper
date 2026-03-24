@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гра</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>Камінь, Ножиці, Папір</h1>
+        
+        <h2>Рахунок:</h2>
+        <p>Ти: <span id="player">0</span> | Суперник: <span id="computer">0</span></p>
+        
+        <hr>
+
+        <h2>Твій вибір: <span id="user-choice"></span></h2>
+        <h2>Хід Суперника: <span id="computer-choice"></span></h2>
+        <h2>Результат: <span id="win"></span></h2>
+
+        <hr>
+
+        <h2>Вибирай, що хочеш поставити:</h2>
+        
+        <div id="button-container">
+            <button id="rock">Камінь</button>
+            <button id="paper">Папір</button>
+            <button id="scissors">Ножиці</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

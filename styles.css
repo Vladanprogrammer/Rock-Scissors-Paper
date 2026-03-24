@@ -1,0 +1,36 @@
+body {
+    background-color: #1e1e1e;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.game-container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+span {
+    font-weight: bold;
+    color: #ffd700; 
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #5cba5c; 
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
